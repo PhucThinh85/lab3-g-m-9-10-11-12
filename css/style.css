@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+tr{
+    height: 40px;
+}
+.xanh{
+    background-color: blue;
+    color: white;
+}
+.dong2{
+    background-color: lightgreen;
+}
+.do{
+    color: red;
+}
+tbody>tr:nth-child(2n){
+    background-color: lightgray;
+}
+tbody>tr:nth-child(2n+1){
+    background-color: lightyellow;
+}

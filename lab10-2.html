@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab10</title>
+    <link rel="stylesheet" type="text/css" href="css/layout2.css">
+    <link rel="stylesheet" type="text/css" href="css/layout1.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="top-right">
+                <a href="dangnhap.html">ĐĂNG NHẬP</a>&nbsp;|
+                <a href="dangky.html">ĐĂNG KÝ</a>&nbsp;|
+                <a href="quenmk.html">QUÊN MẬT KHẨU</a>
+            </nav>
+            <div class="company-info">
+                <div class="one">FPT Polytechnic</div>
+                <div class="two">Thực hành - Thực nghiệm</div>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>|
+                <li><a href="gioithieu.html">Giới thiệu</a></li>|
+                <li>
+                    <a href="LienHe.html">Liên hệ</a>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li>
+                <li><a href="gopy.html">Góp ý</a></li>|
+                <li><a href="hoidap.html">Hỏi đáp</a></li>|
+            </ul>
+        </nav>
+        <article>
+            <h1><br>lab10</h1><br><br>
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                        <label class="form-group-label">Họ và tên</label>
+                        <input type="text" class="form-control" tabindex="1"/>
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Giới tính</legend>
+                                <label class="form-group-label">
+                                    <input type="radio" name="gioitinh" value="Nam" checked tabindex="2"/>Nam
+                                    <input type="radio" name="gioitinh" value="Nữ"/>Nữ
+                                </label>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group-label">Ngày sinh</label>
+                        <input type="date" class="form-control" tabindex="3"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group-label">Điểm</label>
+                        <input type="number" min="0" max="10" step="0.25" class="form-control" tabindex="4"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group-label">Nghề nghiệp</label>
+                        <input list="nghenghiep" class="form-control" tabindex="1"/>
+                        <datalist id="nghenghiep">
+                            <option value="Bác sĩ"></option>
+                            <option value="Công an"></option>
+                            <option value="Công nhân"></option>
+                            <option value="Giáo viên"></option>
+                            <option value="Kế toán"></option>
+                        </datalist>
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Sở thích</legend>
+                                <label class="form-group-label">
+                                    <input type="checkbox" name="sothich" value="Thể thao" checked tabindex="6"/>Thể thao
+                                    <input type="checkbox" name="sothich" value="Du lịch"/>Du lịch
+                                    <input type="checkbox" name="sothich" value="Âm nhạc"/>Âm nhạc
+                                    <input type="checkbox" name="sothich" value="Ẩm thực"/>Ẩm thực 
+                                </label>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group-label">Ghi chú</label>
+                        <textarea rows="5" class="form-control" tabindex="7"></textarea>
+                    <hr/>
+                    <button type="submit" class="form-button" tabindex="8">Đăng Ký</button>
+                    <button type="reset" class="form-button" tabindex="9">Nhập lại</button>
+                </form>
+            </div>
+        </article>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="video.html"> Video </a></li>
+                <li><a href="lab10.html"> Quốc tịch</a></li>
+                <li><a href="lab10-2.html"> Thông Tin</a></li>
+                <li><a href="lab11.html"> Bảng ngoại tệ</a></li>
+                <li><a href="lab11-2.html"> Bảng trung kết</a></li>
+            </ul>
+        </aside>
+        <footer>
+            Võ Phúc Thinh 2021
+
+        </footer>
+    </div>
+</body>
+</html>

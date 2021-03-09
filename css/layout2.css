@@ -1,0 +1,244 @@
+body{
+    padding: 0px;
+    margin: 0px ;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image:url('tv.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    text-align: right;
+    position: relative;
+}
+.top-right{
+    position: absolute ;
+    top: 0px;
+    right: 0px;
+    background-color:green;
+    border-bottom-left-radius: 20px ;
+    padding: 5px 10px 5px 2px;
+ }
+.top-right a{
+   text-decoration: none;
+   color:white ;
+   font-size: 20px;
+   font-variant: small-caps;
+   font-weight: bolder;
+}
+.top-right a:hover{
+   color: khaki;
+   text-shadow: 0 0 10px;
+
+}
+.container>nav{
+    line-height: 40px;
+    background-color:coral;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    position: relative;
+    border-top: 4px solid black;
+    border-bottom:4px solid black ;
+
+}
+.container>article{
+    min-height: 400px;
+    width: 85%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 15%;
+    background-color:white;
+    float: right;
+    font-size: 17px;
+}
+.container>footer{
+    border-top: 2px double black;
+    line-height: 50px;
+    background-color:greenyellow;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>nav{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+ul.vmenu{
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    list-style: none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 35px;
+    border-bottom: 1px dotted orangered;
+    color:black;
+    font-variant: small-caps;
+    background: url('image/2.png') no-repeat left center;
+}
+ul.vmenu>li>a:hover{
+    color:orangered;
+    font-weight: bolder;
+    background: url('image/5.png') no-repeat left center;
+}
+.col-25{
+    width: 30%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}    
+.prod>.name{
+    font-variant: small-caps;
+    color:orangered;
+    font-weight: bold;
+}
+.prod image{
+    max-width: 50%;
+    height: 150px;
+    margin-bottom: 30px;
+}    
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color:skyblue;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.new-icon{
+    width: 100px;
+    height: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:greenyellow;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color:black;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.company-info{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+ 
+ }
+ .company-info>.one{
+    font-size: 30px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 0 0 10px aquamarine ;
+    color: rgb(82, 26, 26);
+ }
+ .company-info>.two{
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 0 0 7px crimson;
+    color:skyblue;
+    font-variant: small-caps;
+   
+ }
+
+.detail{
+    width: 100%;
+}
+.detail-image{
+    width: 30%;
+    float: left;
+}
+.detail-content{
+    width: 70%;
+    float: right;
+}
+.detail-content>h2{
+    color: blue;
+    font-weight: bold;
+}
